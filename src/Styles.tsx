@@ -6,5 +6,5 @@ background-color: wheat;
 padding:2rem;
 height:128vh;
 border-radius:20px;
-height:100vh;
+
 `;
