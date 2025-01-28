@@ -5,9 +5,9 @@ import { H6 } from './Styles'
 function Cards() {
   return (
     <ProgressCardd>
-        <Client></Client>
-        <H6>Your Progress</H6>
-        <Progress></Progress>
+      <Client></Client>
+      <H6>Your Progress</H6>
+      <Progress></Progress>
     </ProgressCardd>
   )
 }

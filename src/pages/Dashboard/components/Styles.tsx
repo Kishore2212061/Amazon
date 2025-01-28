@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const Container=styled.div`
+export const Container = styled.div`
 display:flex;
     border-radius: 30px;
 background-color: white;
@@ -7,27 +7,27 @@ margin-left:-3rem;
 width:object-fit;
 
 `;
-export const Title=styled.h1`
+export const Title = styled.h1`
 padding-top:2.2rem;
 font-size: 2vw; 
 width:90%;
 margin-left:0.53rem;
 `;
 
-export const CC=styled.div`
+export const CC = styled.div`
 max-width:600px;
     margin-left:1.5rem;
     margin-bottom:2.5rem;
 `;
 
 
-export const H3=styled.h3`
+export const H3 = styled.h3`
 font-size:0.9rem;
 margin-top:-0.5rem;
 margin-left:0.9rem;
 `
 
-export const Rc=styled.div`
+export const Rc = styled.div`
     display: flex;
     background-color: #ff8888;
     margin-left:1.8rem;
@@ -39,44 +39,44 @@ export const Rc=styled.div`
    
 `
 
-export const Im=styled.img`
+export const Im = styled.img`
 width:20rem; 
 height:9rem;
 `
 
-export const TextC=styled.p`
+export const TextC = styled.p`
     display:flex;
     word-wrap: break-word; 
     flex-direction:column;
     padding-left:1.5rem;
 `
 
-export const Inside=styled.div`
+export const Inside = styled.div`
 width:50%;
 margin-right:1rem;
 
 `
 
 
-export const StatsContainer =styled.div`
+export const StatsContainer = styled.div`
 margin-bottom:1.5rem;
   display: flex;
   margin-top:1rem;
   margin-left:1.8rem;
   gap:3.2rem;
 `;
-export const StatValue =styled.p`
+export const StatValue = styled.p`
   font-size: 12px;
   color: #2e2e2e;
   
 `;
-export const StatValue1 =styled.h1`
+export const StatValue1 = styled.h1`
   font-weight: 90px;
    font-size: 25px;
   color: #2e2e2e;
 
 `;
-export const StatBox =styled.div`
+export const StatBox = styled.div`
   background: white;
   padding:0.5rem;
   width:6.8rem;
@@ -87,11 +87,11 @@ export const StatBox =styled.div`
 `;
 
 
-export const RecentlySoldContainer =styled.div`
+export const RecentlySoldContainer = styled.div`
     flex-direction:column;
      margin-top:2.5rem;
 `;
-export const SoldItem =styled.li`
+export const SoldItem = styled.li`
   display: flex;
    background-color: white;
   margin-right:2rem;
@@ -129,7 +129,7 @@ export const SoldPrice = styled.span`
   color: #444;
 `;
 
-export const H2=styled.h2`
+export const H2 = styled.h2`
 margin-left:2rem;
 font-size:1.1rem;
 font-weght:bold;

@@ -1,7 +1,7 @@
 import Cards from './components/Cards'
 function Performance() {
   return (
-   <Cards></Cards>
+    <Cards></Cards>
   )
 }
 

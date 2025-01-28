@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import {Link} from "react-router-dom";
-export const Container=styled.div`
+import { Link } from "react-router-dom";
+export const Container = styled.div`
 display:flex;
 flex-direction:column;
 gap:1.5rem;
@@ -9,7 +9,7 @@ gap:1.5rem;
     background-color: #3f3d56;
 `;
 
-export const Pic=styled.img`
+export const Pic = styled.img`
     width: 4.5rem;
     height: 4.5rem;
     padding:3.5rem;

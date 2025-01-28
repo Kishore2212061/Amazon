@@ -1,12 +1,12 @@
 import styled from "styled-components";
-export const Title=styled.h2`
+export const Title = styled.h2`
 padding-top:1rem;
 padding-left:2rem;
 font-size:1.2rem;
 
 `
 
-export const ProgressCardd=styled.div`
+export const ProgressCardd = styled.div`
 background-color:#ffcc80;
 margin-top:0.5rem;
 margin-bottom:0.5rem;
@@ -36,7 +36,7 @@ export const ClientImage = styled.img`
   margin-bottom: -0.5rem;
 `;
 
-export const ClientP=styled.p`
+export const ClientP = styled.p`
 padding-left:1.9rem;
 `
 
@@ -63,21 +63,21 @@ export const Percentage = styled.span<{ isPositive: boolean }>`
   color: ${(props) => (props.isPositive ? "green" : "red")};
 `;
 
-export const FlexProperty=styled.div`;
+export const FlexProperty = styled.div`;
 display:flex;
 justify-content: space-between;
 
 `;
-export const ProgressB=styled.div`
+export const ProgressB = styled.div`
 display:flex;
 flex-direction:column;
 justify-content:space-between;
 `;
-export const Hrr=styled.hr`
+export const Hrr = styled.hr`
 border:2px solid #ffcc80;
 `;
 
-export const H6=styled.h4`
+export const H6 = styled.h4`
 margin-left:2rem;
 margin-top:0.3rem;
 `

@@ -4,9 +4,9 @@ import Dashboard from "./pages/Dashboard/Dashboard";
 function App() {
   return (
     <Container>
-        <Links></Links>
-        <Dashboard>
-        </Dashboard>
+      <Links></Links>
+      <Dashboard>
+      </Dashboard>
     </Container>
   )
 }

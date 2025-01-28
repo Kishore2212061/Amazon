@@ -4,14 +4,14 @@ import Navigation from './Navigation'
 import { BrowserRouter as Router } from 'react-router-dom'
 function Card() {
   return (
-   
+
     <Container>
-        <Photo></Photo>
-        <Router>
+      <Photo></Photo>
+      <Router>
         <Navigation></Navigation>
-        </Router>
+      </Router>
     </Container>
-    
+
   )
 }
 
