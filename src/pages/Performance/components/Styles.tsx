@@ -3,7 +3,7 @@ export const Title=styled.h2`
 padding-top:1rem;
 padding-left:2rem;
 font-size:1.2rem;
-width:30rem;
+
 `
 
 export const ProgressCardd=styled.div`
@@ -12,7 +12,7 @@ margin-top:0.5rem;
 margin-bottom:0.5rem;
 margin-right:0.5rem;
     border-radius: 30px;
-
+width:object-fit;
 `
 
 

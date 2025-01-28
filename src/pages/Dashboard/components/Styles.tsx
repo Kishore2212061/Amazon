@@ -4,6 +4,7 @@ display:flex;
     border-radius: 30px;
 background-color: white;
 margin-left:-3rem;
+width:object-fit;
 
 `;
 export const Title=styled.h1`
