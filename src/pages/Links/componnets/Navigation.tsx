@@ -1,4 +1,3 @@
-import React from 'react';
 import { FiHome, FiPackage, FiUsers, FiStar, FiSettings, FiLogOut } from "react-icons/fi";
 import { NavMenu, StyledNavLink, LogoutButton } from './Styles';
 

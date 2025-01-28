@@ -1,4 +1,3 @@
-import React from 'react'
 import { ProgressB,ProgressBox,FlexProperty,Hrr,Percentage } from './Styles'
 import { useDashboardStore } from '../../../store/useStore';
 function Progress() {

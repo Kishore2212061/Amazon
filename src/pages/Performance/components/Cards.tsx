@@ -1,4 +1,3 @@
-import React from 'react'
 import { ProgressCardd } from './Styles'
 import Client from './Client'
 import Progress from './Progress'

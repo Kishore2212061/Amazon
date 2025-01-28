@@ -1,4 +1,3 @@
-import React from 'react'
 import { useDashboardStore } from "../../../store/useStore";
 import {Title,ClientsContainer,ClientImage,ClientBox,ClientP} from './Styles';
 function Client() {

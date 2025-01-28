@@ -1,4 +1,3 @@
-import React from 'react'
 import { Rc } from './Styles'
 import Image from '../../../assets/Cardimage (2).png'
 import { Im,TextC } from './Styles'

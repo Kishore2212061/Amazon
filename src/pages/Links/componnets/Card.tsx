@@ -1,4 +1,3 @@
-import React from 'react'
 import Photo from './Photo'
 import { Container } from './Styles'
 import Navigation from './Navigation'

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Container,Inside } from './Styles'
 import Message from './Message'
 import Stats from './Stats'
