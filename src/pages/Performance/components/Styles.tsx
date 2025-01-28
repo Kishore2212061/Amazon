@@ -11,7 +11,7 @@ background-color:#ffcc80;
 margin-top:0.5rem;
 margin-bottom:0.5rem;
 margin-right:0.5rem;
-    border-radius: 30px;
+  border-radius: 30px;
 width:object-fit;
 `
 
