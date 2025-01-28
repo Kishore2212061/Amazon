@@ -5,5 +5,5 @@ display:flex;
 background-color: wheat;
 padding:2rem;
 border-radius:20px;
-width:100%;
+height:100vh;
 `;
