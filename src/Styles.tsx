@@ -6,5 +6,7 @@ background-color: wheat;
 padding:2rem;
 margin:0;
 border-radius:20px;
+  max-width: 1200px; /* Prevent excessive growth */
+  min-width: 300px; /* Prevent excessive shrinking */
 
 `;
