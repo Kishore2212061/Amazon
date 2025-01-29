@@ -103,6 +103,7 @@ export const SoldList = styled.ul`
   flex-wrap: wrap;
   padding: 1rem;
   gap: 1.5rem;
+   
 `;
 
 export const SoldItem = styled.li`
