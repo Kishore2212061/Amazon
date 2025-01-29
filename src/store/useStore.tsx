@@ -105,7 +105,7 @@ interface Stat {
 
 interface Product {
     name: string;
-    price: number;
+    price: string;
     itemsold: number;
     photo: string;
 }

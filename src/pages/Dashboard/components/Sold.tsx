@@ -1,35 +1,7 @@
 import 'react-loading-skeleton/dist/skeleton.css';
-import Skeleton from '@mui/material/Skeleton';
 import { useDashboardStore } from '../../../store/useStore';
-import styled from 'styled-components';
-
-import { RecentlySoldContainer, SoldList, SoldItem, SoldImage, SoldName, SoldPrice, H2 } from './Styles';
-
-const SkeletonSoldItem = styled(SoldItem)`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-`;
-
-const SkeletonImage = styled(Skeleton)`
-  border-radius:20px;
-  width:8rem;
-  min-height:5rem;
-  padding-left:2rem;
-`;
-
-const SkeletonName = styled(Skeleton)`
-padding-top:1rem;
-  width: 6rem;
-  height: 1.2rem;
-  margin-top: 3rem;
-`;
-
-const SkeletonPrice = styled(Skeleton)`
-  width: 6rem;
-  height: 2rem;
-  margin-top: 0.3rem;
-`;
+import { ShoppingBag, Glasses } from "lucide-react";
+import { RecentlySoldContainer, SoldList, SoldItem, SoldImage, SoldName, SoldPrice, H2 ,SkeletonSoldItem,SkeletonImage,SkeletonName,SkeletonPrice,Container1,Title1,IconContainer,IconContainerWrapper,Card,Stats} from './Styles';
 
 function Sold() {
   const { RecentSold, loading } = useDashboardStore();
@@ -51,10 +23,28 @@ function Sold() {
             <SoldItem key={re.name}>
               <SoldImage src={re.photo} />
               <SoldName>{re.name}</SoldName>
-              <SoldPrice>{re.price} - earned</SoldPrice>
+              <SoldPrice>&nbsp;{re.price} - earned</SoldPrice>
             </SoldItem>
           ))
-        )}
+        )
+        }
+        {!loading &&
+          <Container1>
+      <IconContainerWrapper>
+        <IconContainer>
+          <Glasses size={35} color="#333"   />
+        </IconContainer>
+        <IconContainer>
+          <ShoppingBag size={35 } color="#333" />
+        </IconContainer>
+      </IconContainerWrapper>
+
+      <Card>
+        <Title1>Dresses</Title1>
+        <Stats>25 items  &nbsp; &nbsp; $3.5k earned</Stats>
+      </Card>
+    </Container1>
+}
       </SoldList>
     </RecentlySoldContainer>
   );

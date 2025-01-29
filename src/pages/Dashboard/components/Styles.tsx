@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Skeleton from '@mui/material/Skeleton';
 
 export const Container = styled.div`
   display: flex;
@@ -58,13 +59,11 @@ export const TextC = styled.p`
 export const Inside = styled.div`
   width: 50%;
   margin-right: 1rem;
- 
 `;
 
 export const StatsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
- 
   gap: 1.5rem;
   margin-top: 1rem;
   width: 100%;
@@ -75,7 +74,7 @@ export const StatBox = styled.div`
   padding: 0.5rem;
   width: clamp(6.8rem, 15%, 10rem);
   min-height: 5rem;
-  border-radius: 20px;
+  border-radius:10px;
   text-align: center;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 `;
@@ -103,27 +102,26 @@ export const SoldList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
-  gap: 1.5rem;
-   
+  gap: 1.5rem; 
 `;
 
 export const SoldItem = styled.li`
   background-color: white;
-  border-radius: 20px;
-  padding: 1rem;
+  border-radius: 30px;
+  padding: 1.2rem;
   height: auto;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  width: clamp(2rem, 38%, 10rem);
+  width: clamp(1rem, 35%, 10rem);
 `;
 
 export const SoldImage = styled.img`
-   width: 100%;
-  max-width: 22rem;
+   width: 80%;
+  max-width: 15rem;
   height: auto;
 `;
 
 export const SoldName = styled.span`
-display:flex;
+  display:flex;
   font-size: 12px;
   padding: 0.3rem;
   font-weight: bold;
@@ -145,4 +143,79 @@ export const NotificationIcon = styled.div`
   top: 40%;
   right: 5%;
   cursor: pointer;
+`;
+
+
+
+
+export const Container1 = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+`;
+
+export const IconContainerWrapper = styled.div`
+  display: flex;
+  gap: 20px;
+`;
+
+export const IconContainer = styled.div`
+  width: 78px;
+  height: 89px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f8f8;
+  border-radius: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+`;
+
+export const Card = styled.div`
+  background: #e6b9b8;
+  padding: 15px 20px 15px;
+  border-radius: 25px;
+  width: 150px;
+  padding:20px;
+  color: white;
+  height:50px;
+  font-weight: bold;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+`;
+
+export const Title1 = styled.div`
+  font-size: 16px;
+  padding:5px;
+`;
+
+export const Stats = styled.div`
+   display:flex;
+  font-size: 14px;
+  opacity: 0.8;
+`;
+export const SkeletonSoldItem = styled(SoldItem)`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`;
+
+export const SkeletonImage = styled(Skeleton)`
+  border-radius:20px;
+  width:8rem;
+  min-height:5rem;
+  padding-left:2rem;
+`;
+
+export const SkeletonName = styled(Skeleton)`
+padding-top:1rem;
+  width: 6rem;
+  height: 1.2rem;
+  margin-top: 3rem;
+`;
+
+export const SkeletonPrice = styled(Skeleton)`
+  width: 6rem;
+  height: 2rem;
+  margin-top: 0.3rem;
 `;
