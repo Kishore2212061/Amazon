@@ -39,6 +39,6 @@ export const useLoadDashboardData = () => {
         setLoading(true);
         setTimeout(() => {
             setDashboardData(dummyData);
-        }, 500); 
+        }, 3500); 
     };
 };
