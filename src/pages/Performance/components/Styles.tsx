@@ -3,7 +3,7 @@ export const Title = styled.h2`
 padding-top:1rem;
 padding-left:2rem;
 font-size:1.2rem;
-
+display:flex;
 `
 
 export const ProgressCardd = styled.div`
@@ -15,7 +15,10 @@ margin-right:0.5rem;
   min-width:32rem;
 
 `
-
+export const P=styled.p`
+margin-left:80%;
+margin-top:-7%;
+`
 
 export const ClientsContainer = styled.div`
   display: flex;

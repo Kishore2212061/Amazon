@@ -21,6 +21,7 @@ export const Title = styled.h1`
 export const CC = styled.div`
   max-width: 600px;
   margin: 1.5rem auto;
+
 `;
 
 export const H3 = styled.h3`
@@ -137,4 +138,11 @@ export const H2 = styled.h2`
   font-size: 1.1rem;
   font-weight: bold;
   margin-right:72%;
+`;
+
+export const NotificationIcon = styled.div`
+  position: absolute;
+  top: 40%;
+  right: 5%;
+  cursor: pointer;
 `;

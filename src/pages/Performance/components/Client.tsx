@@ -1,5 +1,5 @@
 import { useDashboardStore } from "../../../store/useStore";
-import { Title, ClientsContainer, ClientBox, ClientP } from './Styles';
+import { Title, ClientsContainer, ClientBox, ClientP,P } from './Styles';
 import { AsyncImage } from 'loadable-image'; // For loading images with async
 import { Slide } from 'transitions-kit'; // For slide transition
 import { useEffect } from 'react';
@@ -21,8 +21,9 @@ function Client() {
 
   return (
     <>
-      <Title>Performance</Title>
+      <Title>Performance </Title>
       <Title>New clients ({clientsToDisplay.length})</Title>
+      <P>see all</P>
       <ClientsContainer>
         {clientsToDisplay.map((client, index) => (
           <ClientBox key={index}>

@@ -1,6 +1,7 @@
 import { useDashboardStore } from '../../../store/useStore';
-import { CC, Title, H3 } from './Styles';
-import {BlinkBlur } from 'react-loading-indicators';
+import { CC, Title, H3,NotificationIcon } from './Styles';
+import { BlinkBlur } from 'react-loading-indicators';
+import { Bell } from 'lucide-react'; 
 
 function Message() {
   const { User, loading } = useDashboardStore(); 
@@ -11,9 +12,12 @@ function Message() {
   const formattedDate = `${day} ${month}, ${weekday}`;
 
   return (
-    <CC>
+    <CC style={{ position: "relative" }}>
+      <NotificationIcon>
+        <Bell size={20} color="black" />
+      </NotificationIcon>
       <Title>
-        Welcome back, {loading ? <BlinkBlur color="silver" size="small"/>: User}!
+        Welcome back, {loading ? <BlinkBlur color="silver" size="small" /> : User}!
       </Title>
       <H3>{formattedDate}</H3>
     </CC>
