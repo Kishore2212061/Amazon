@@ -45,5 +45,5 @@ export const StyledNavLink = styled(Link)`
 
 export const LogoutButton = styled(StyledNavLink)`
   color: white;
-  margin-top:12rem;
+  margin-top:190%;
 `;

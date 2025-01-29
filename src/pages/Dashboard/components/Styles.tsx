@@ -121,6 +121,7 @@ export const SoldImage = styled.img`
 `;
 
 export const SoldName = styled.span`
+display:flex;
   font-size: 12px;
   padding: 0.3rem;
   font-weight: bold;
