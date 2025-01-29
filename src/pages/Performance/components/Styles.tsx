@@ -12,7 +12,8 @@ margin-top:0.5rem;
 margin-bottom:0.5rem;
 margin-right:0.5rem;
   border-radius: 30px;
-width:object-fit;
+  min-width:32rem;
+
 `
 
 
@@ -37,7 +38,8 @@ export const ClientImage = styled.img`
 `;
 
 export const ClientP = styled.p`
-padding-left:1.9rem;
+padding-left:2rem;
+
 `
 
 

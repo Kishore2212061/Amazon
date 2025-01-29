@@ -5,7 +5,6 @@ display:flex;
 flex-direction:column;
 gap:1.5rem;
     border-radius: 30px;
-
     background-color: #3f3d56;
 `;
 
@@ -46,5 +45,5 @@ export const StyledNavLink = styled(Link)`
 
 export const LogoutButton = styled(StyledNavLink)`
   color: white;
-  margin-top:17rem;
+  margin-top:12rem;
 `;
