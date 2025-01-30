@@ -8,8 +8,7 @@ export const Container = styled.div`
   margin-left:-3rem;
 
   padding: 1.5rem;
-   border:5px solid black;
-       @media (max-width: 768px) { 
+       @media (max-width:1080px) { 
          flex-direction: column;
          margin-left:0.3%;
   }
@@ -24,7 +23,6 @@ export const Title = styled.h1`
 
 export const CC = styled.div`
   margin: 1.5rem auto;
- border:5px solid black;
 `;
 
 export const H3 = styled.h3`
@@ -41,11 +39,14 @@ export const Rc = styled.div`
   width: 100%;
   color: white;
   height: 9%;
-   border:5px solid black;
-   @media (max-width: 768px) { 
-   height:20%;
+   @media (max-width: 1080px) { 
+   height:100%;
    padding:5%;
    width:90%;
+}
+      @media (min-width: 1081px) { 
+ height:20%;
+
 }
 `;
 
@@ -61,26 +62,28 @@ export const TextC = styled.p`
   word-wrap: break-word; 
   flex-direction: column;
   padding-left: 1.5rem;
-  @media (max-width: 768px) { 
+  @media (max-width: 1080px) { 
   font-size:200%;
 }
 `;
 
 export const Inside = styled.div`
- 
-   border:5px solid red;
- 
+
+   margin-right:2rem;
+      @media (min-width: 1081px) { 
+     width:35rem;
+     height:55rem;
+}
   `;
 
 export const StatsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 3.5rem;
   margin-left:1rem;
   width: 100%;
-   border:5px solid black;
-   @media (max-width: 768px) { 
+   @media (max-width: 1080px) { 
       justify-content:center;
 }
 `;
@@ -91,7 +94,6 @@ export const StatBox = styled.div`
   width: clamp(6.8rem, 15%, 10rem);
   min-height: 5rem;
   border-radius:10px;
-   border:5px solid black;
   text-align: center;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 `;
@@ -109,9 +111,8 @@ export const StatValue1 = styled.h1`
 export const RecentlySoldContainer = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 1.5rem;
+  margin-top: 5rem;
   width: 100%;
-   border:5px solid black;
    margin-left:1%;
 `;
 
@@ -121,7 +122,7 @@ export const SoldList = styled.ul`
   flex-wrap: wrap;
   padding: 1rem;
   gap: 1.5rem; 
-   border:5px solid black;
+   margin-top:0rem;
 `;
 
 export const SoldItem = styled.li`
@@ -130,15 +131,13 @@ export const SoldItem = styled.li`
   display:flex;
   flex-direction:column;
   padding: 1.2rem;
-  height: auto;
+  height:12rem;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  width: clamp(7rem, 35%, 10rem);
-   border:5px solid black;
+  width:10rem;
 `;
 
 export const SoldImage = styled.img`
   width: 80%;
-  max-width: 15rem;
   height: auto;
   margin-left:1rem;
 `;
@@ -148,6 +147,10 @@ export const SoldName = styled.span`
   font-size: 12px;
   padding: 0.3rem;
   font-weight: bold;
+     @media (max-width: 1080px) { 
+       font-size:25px;
+
+}
 `;
 
 export const SoldPrice = styled.span`
@@ -168,7 +171,6 @@ export const NotificationIcon = styled.div`
   top: 40%;
   right: 5%;
   cursor: pointer;
-   border:5px solid black;
 `;
 
 
@@ -179,13 +181,11 @@ export const Container1 = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 10px;
-   border:5px solid red;
   padding: 10px;
 `;
 
 export const IconContainerWrapper = styled.div`
   display: flex;
-   border:5px solid black;
   gap: 20px;
 `;
 
@@ -193,7 +193,6 @@ export const IconContainer = styled.div`
   width: 78px;
   height: 89px;
   display: flex;
-   border:5px solid black;
   align-items: center;
   justify-content: center;
   background: #f8f8f8;
@@ -206,24 +205,21 @@ export const Card = styled.div`
   padding: 15px 20px 15px;
   border-radius: 25px;
   width: 150px;
-  padding:20px;
-   border:5px solid black;
+  padding:30px;
   color: white;
-  height:50px;
+  height:30px;
   font-weight: bold;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 `;
 
 export const Title1 = styled.div`
   font-size: 16px;
-   border:5px solid black;
-  padding:5px;
+  padding:2px;
 `;
 
 export const Stats = styled.div`
    display:flex;
-  font-size: 14px;
-   border:5px solid black;
+  font-size: 10px;
   opacity: 0.8;
 `;
 export const SkeletonSoldItem = styled(SoldItem)`

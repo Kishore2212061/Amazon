@@ -4,10 +4,9 @@ export const Container = styled.div`
               display:flex;
               flex-direction:column;
               gap:1.5rem;
-            border-radius: 30px;
+            border-radius: 30px;  
             background-color: #3f3d56;
-            border:5px solid black;
-                @media (max-width: 768px) { 
+                @media (max-width: 1080px) { 
                       flex-direction: row;
                       margin-bottom:-2.5%;
   }
@@ -31,8 +30,7 @@ export const NavMenu = styled.nav`
   margin-left:1rem;
   margin-top:-1.5rem;
   padding-right:4rem;
-   border:5px solid black;
-     @media (max-width: 768px) { 
+     @media (max-width: 1080px) { 
       flex-direction: row;
       margin-top:0;
       margin-left:0;
@@ -49,7 +47,6 @@ export const StyledNavLink = styled(Link)`
   padding: 10px 15px;
   font-size: 1.1rem;
   color: white;
-   border:5px solid black;
   
   svg {
     width: 0.8rem;
@@ -58,7 +55,7 @@ export const StyledNavLink = styled(Link)`
     &:hover {
     color: gold;
     }
-      @media (max-width: 768px) { 
+      @media (max-width: 1080px) { 
       flex-direction: row;
       margin-top:9%;
       margin-left:0;
@@ -70,8 +67,8 @@ export const StyledNavLink = styled(Link)`
 
 export const LogoutButton = styled(StyledNavLink)`
   color: white;
-  margin-top:120%;
-    @media (max-width: 768px) { 
+  margin-top:170%;
+    @media (max-width: 1080px) { 
     margin-top:0;
     margin-top:9%;
   }

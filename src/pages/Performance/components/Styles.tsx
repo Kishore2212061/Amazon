@@ -15,12 +15,11 @@ margin-right:0.5rem;
   min-width:32rem;
   display:flex;
   flex-direction:column;
-  border:2px solid red;
 `
 export const P=styled.p`
 margin-left:80%;
 margin-top:-7%;
-   @media (max-width: 768px) { 
+   @media (max-width: 1080px) { 
   margin-top:-3%;
 }
 `
@@ -28,17 +27,16 @@ margin-top:-7%;
 export const ClientsContainer = styled.div`
   display: flex;
   width:100%;
-  border:2px solid black;
-  @media (max-width: 768px) { 
+  @media (max-width: 1080px) { 
  margin-top:2rem;
-
+ align-items:center;
+ justify-content:space-around;
 }
 `;
 export const ClientBox = styled.div`
   padding: 3px;
   border-radius: 10px;
   text-align: center;
-  border:2px solid red;
 `;
 export const ClientImage = styled.img`
   width: 32px;
@@ -64,7 +62,6 @@ export const ProgressBox = styled.div`
    margin-bottom:1rem;
   border-radius:30px;
   padding:1rem;
-  border:2px solid black;
 `;
 export const Percentage = styled.span<{ isPositive: boolean }>`
   border-radius:20px;
@@ -80,7 +77,6 @@ export const Percentage = styled.span<{ isPositive: boolean }>`
 export const FlexProperty = styled.div`;
 display:flex;
 justify-content: space-between;
-border:2px solid black;
 `;
 export const ProgressB = styled.div`
 display:flex;
