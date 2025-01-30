@@ -1,6 +1,6 @@
 import styled from "styled-components";
 export const Title = styled.h2`
-padding-top:1rem;
+
 padding-left:2rem;
 font-size:1.2rem;
 display:flex;
@@ -8,29 +8,37 @@ display:flex;
 
 export const ProgressCardd = styled.div`
 background-color:#ffcc80;
-margin-top:0.5rem;
+
 margin-bottom:0.5rem;
 margin-right:0.5rem;
   border-radius: 30px;
   min-width:32rem;
   display:flex;
   flex-direction:column;
+  border:2px solid red;
 `
 export const P=styled.p`
 margin-left:80%;
 margin-top:-7%;
+   @media (max-width: 768px) { 
+  margin-top:-3%;
+}
 `
 
 export const ClientsContainer = styled.div`
   display: flex;
-  gap: 0.4rem;
-  width: 100%;
-  
+  width:100%;
+  border:2px solid black;
+  @media (max-width: 768px) { 
+ margin-top:2rem;
+
+}
 `;
 export const ClientBox = styled.div`
   padding: 3px;
   border-radius: 10px;
   text-align: center;
+  border:2px solid red;
 `;
 export const ClientImage = styled.img`
   width: 32px;
@@ -51,12 +59,12 @@ export const ProgressBox = styled.div`
   background: white;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  height:7rem;
-  width:26rem;
+   margin-top:2rem;
    margin-left:1.5rem;
    margin-bottom:1rem;
   border-radius:30px;
   padding:1rem;
+  border:2px solid black;
 `;
 export const Percentage = styled.span<{ isPositive: boolean }>`
   border-radius:20px;
@@ -72,7 +80,7 @@ export const Percentage = styled.span<{ isPositive: boolean }>`
 export const FlexProperty = styled.div`;
 display:flex;
 justify-content: space-between;
-
+border:2px solid black;
 `;
 export const ProgressB = styled.div`
 display:flex;

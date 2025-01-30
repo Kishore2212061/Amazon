@@ -6,21 +6,25 @@ export const Container = styled.div`
   border-radius: 30px;
   background-color: white;
   margin-left:-3rem;
-  max-width: 90%;
+
   padding: 1.5rem;
+   border:5px solid black;
+       @media (max-width: 768px) { 
+         flex-direction: column;
+         margin-left:0.3%;
+  }
 `;
 
 export const Title = styled.h1`
   padding-top: 2rem;
   font-size: clamp(1.5rem, 2vw, 2.2rem); 
-  width: 90%;
+  width: 100%;
   margin-left: 0.5rem;
 `;
 
 export const CC = styled.div`
-  max-width: 600px;
   margin: 1.5rem auto;
-
+ border:5px solid black;
 `;
 
 export const H3 = styled.h3`
@@ -35,16 +39,21 @@ export const Rc = styled.div`
     margin-left:0.5rem;
   border-radius: 15px;
   width: 100%;
-  max-width: 30rem;
-  min-width: 250px;
   color: white;
-  height: 9rem;
+  height: 9%;
+   border:5px solid black;
+   @media (max-width: 768px) { 
+   height:20%;
+   padding:5%;
+   width:90%;
+}
 `;
 
 export const Im = styled.img`
   width: 100%;
-  max-width: 20rem;
-  height: auto;
+  @media (max-width: 768px) { 
+  margin-left:40%;
+}
 `;
 
 export const TextC = styled.p`
@@ -52,12 +61,16 @@ export const TextC = styled.p`
   word-wrap: break-word; 
   flex-direction: column;
   padding-left: 1.5rem;
+  @media (max-width: 768px) { 
+  font-size:200%;
+}
 `;
 
 export const Inside = styled.div`
-  width: 50%;
-  margin-right: 2rem;
-`;
+ 
+   border:5px solid red;
+ 
+  `;
 
 export const StatsContainer = styled.div`
   display: flex;
@@ -66,6 +79,10 @@ export const StatsContainer = styled.div`
   margin-top: 2rem;
   margin-left:1rem;
   width: 100%;
+   border:5px solid black;
+   @media (max-width: 768px) { 
+      justify-content:center;
+}
 `;
 
 export const StatBox = styled.div`
@@ -74,6 +91,7 @@ export const StatBox = styled.div`
   width: clamp(6.8rem, 15%, 10rem);
   min-height: 5rem;
   border-radius:10px;
+   border:5px solid black;
   text-align: center;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 `;
@@ -91,9 +109,10 @@ export const StatValue1 = styled.h1`
 export const RecentlySoldContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 1.5rem;
   width: 100%;
+   border:5px solid black;
+   margin-left:1%;
 `;
 
 export const SoldList = styled.ul`
@@ -102,6 +121,7 @@ export const SoldList = styled.ul`
   flex-wrap: wrap;
   padding: 1rem;
   gap: 1.5rem; 
+   border:5px solid black;
 `;
 
 export const SoldItem = styled.li`
@@ -113,6 +133,7 @@ export const SoldItem = styled.li`
   height: auto;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   width: clamp(7rem, 35%, 10rem);
+   border:5px solid black;
 `;
 
 export const SoldImage = styled.img`
@@ -137,7 +158,9 @@ export const SoldPrice = styled.span`
 export const H2 = styled.h2`
   font-size: 1.1rem;
   font-weight: bold;
-  margin-right:68%;
+  padding-left:2.5%; 
+  
+
 `;
 
 export const NotificationIcon = styled.div`
@@ -145,6 +168,7 @@ export const NotificationIcon = styled.div`
   top: 40%;
   right: 5%;
   cursor: pointer;
+   border:5px solid black;
 `;
 
 
@@ -155,11 +179,13 @@ export const Container1 = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 10px;
+   border:5px solid red;
   padding: 10px;
 `;
 
 export const IconContainerWrapper = styled.div`
   display: flex;
+   border:5px solid black;
   gap: 20px;
 `;
 
@@ -167,6 +193,7 @@ export const IconContainer = styled.div`
   width: 78px;
   height: 89px;
   display: flex;
+   border:5px solid black;
   align-items: center;
   justify-content: center;
   background: #f8f8f8;
@@ -180,6 +207,7 @@ export const Card = styled.div`
   border-radius: 25px;
   width: 150px;
   padding:20px;
+   border:5px solid black;
   color: white;
   height:50px;
   font-weight: bold;
@@ -188,12 +216,14 @@ export const Card = styled.div`
 
 export const Title1 = styled.div`
   font-size: 16px;
+   border:5px solid black;
   padding:5px;
 `;
 
 export const Stats = styled.div`
    display:flex;
   font-size: 14px;
+   border:5px solid black;
   opacity: 0.8;
 `;
 export const SkeletonSoldItem = styled(SoldItem)`
