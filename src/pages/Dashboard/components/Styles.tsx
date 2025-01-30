@@ -8,6 +8,10 @@ export const Container = styled.div`
   margin-left:-3rem;
   max-width: 90%;
   padding: 1.5rem;
+
+    @media (max-width: 1200px) {
+    flex-direction: column;
+  }
 `;
 
 export const Title = styled.h1`
@@ -55,17 +59,16 @@ export const TextC = styled.p`
 `;
 
 export const Inside = styled.div`
-  width: 50%;
-  margin-right: 2rem;
+ 
 `;
 
 export const StatsContainer = styled.div`
   display: flex;
-  flex-wrap: wrap;
   gap: 1.5rem;
   margin-top: 2rem;
   margin-left:1rem;
   width: 100%;
+
 `;
 
 export const StatBox = styled.div`
@@ -93,7 +96,9 @@ export const RecentlySoldContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 1.5rem;
-  width: 100%;
+  
+  
+   
 `;
 
 export const SoldList = styled.ul`
@@ -102,6 +107,8 @@ export const SoldList = styled.ul`
   flex-wrap: wrap;
   padding: 1rem;
   gap: 1.5rem; 
+
+   
 `;
 
 export const SoldItem = styled.li`
@@ -113,6 +120,7 @@ export const SoldItem = styled.li`
   height: auto;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   width: clamp(7rem, 35%, 10rem);
+
 `;
 
 export const SoldImage = styled.img`
