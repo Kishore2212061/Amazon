@@ -29,9 +29,9 @@ const dummyData = {
         },
     ],
     Performance: [
-        { label: "Total Income", value: "$1.4K", orders: 150, percentage: 15 },
-        { label: "Worst Selling", value: "$1.0K", orders: 85, percentage: -10 },
-        { label: "Best Selling", value: "$1.0K", orders: 65, percentage: 45 },
+        { label: "Total Income", value:  "$   1.4K", orders: 150, percentage: 15 },
+        { label: "Worst Selling", value: "$   1.0K", orders: 85, percentage: -10 },
+        { label: "Best Selling", value:  "$   1.0K", orders: 65, percentage: 45 },
     ],
 };
 

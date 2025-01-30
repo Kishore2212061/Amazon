@@ -13,7 +13,8 @@ margin-bottom:0.5rem;
 margin-right:0.5rem;
   border-radius: 30px;
   min-width:32rem;
-
+  display:flex;
+  flex-direction:column;
 `
 export const P=styled.p`
 margin-left:80%;
@@ -52,8 +53,8 @@ export const ProgressBox = styled.div`
   text-align: center;
   height:7rem;
   width:26rem;
- margin-left:1.5rem;
- margin-bottom:1rem;
+   margin-left:1.5rem;
+   margin-bottom:1rem;
   border-radius:30px;
   padding:1rem;
 `;

@@ -6,10 +6,8 @@ export const Container = styled.div`
   border-radius: 30px;
   background-color: white;
   margin-left:-3rem;
-  max-width: 90vw;
-  width: 100%;
+  max-width: 90%;
   padding: 1.5rem;
-  
 `;
 
 export const Title = styled.h1`
@@ -34,7 +32,7 @@ export const H3 = styled.h3`
 export const Rc = styled.div`
   display: flex;
   background-color: #ff8888;
-
+    margin-left:0.5rem;
   border-radius: 15px;
   width: 100%;
   max-width: 30rem;
@@ -58,14 +56,15 @@ export const TextC = styled.p`
 
 export const Inside = styled.div`
   width: 50%;
-  margin-right: 1rem;
+  margin-right: 2rem;
 `;
 
 export const StatsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  margin-left:1rem;
   width: 100%;
 `;
 
@@ -93,7 +92,7 @@ export const RecentlySoldContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   width: 100%;
 `;
 
@@ -107,17 +106,20 @@ export const SoldList = styled.ul`
 
 export const SoldItem = styled.li`
   background-color: white;
-  border-radius: 30px;
+  border-radius: 35px;
+  display:flex;
+  flex-direction:column;
   padding: 1.2rem;
   height: auto;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  width: clamp(1rem, 35%, 10rem);
+  width: clamp(7rem, 35%, 10rem);
 `;
 
 export const SoldImage = styled.img`
-   width: 80%;
+  width: 80%;
   max-width: 15rem;
   height: auto;
+  margin-left:1rem;
 `;
 
 export const SoldName = styled.span`
@@ -135,7 +137,7 @@ export const SoldPrice = styled.span`
 export const H2 = styled.h2`
   font-size: 1.1rem;
   font-weight: bold;
-  margin-right:72%;
+  margin-right:68%;
 `;
 
 export const NotificationIcon = styled.div`

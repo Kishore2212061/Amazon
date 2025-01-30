@@ -19,7 +19,7 @@ export const Pic = styled.img`
 export const NavMenu = styled.nav`
   display: flex;
   flex-direction: column;
-  gap: 0.1rem;
+  gap: 1.2rem;
   margin-left:1rem;
   margin-top:-1.5rem;
   padding-right:4rem;
@@ -45,5 +45,5 @@ export const StyledNavLink = styled(Link)`
 
 export const LogoutButton = styled(StyledNavLink)`
   color: white;
-  margin-top:190%;
+  margin-top:120%;
 `;
