@@ -40,12 +40,13 @@ export const Rc = styled.div`
   color: white;
   height: 9%;
    @media (max-width: 1080px) { 
-   height:100%;
+   height:20%;
    padding:5%;
    width:90%;
 }
       @media (min-width: 1081px) { 
  height:20%;
+ margin-top:2rem;
 
 }
 `;

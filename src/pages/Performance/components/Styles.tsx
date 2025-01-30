@@ -8,12 +8,12 @@ display:flex;
 
 export const ProgressCardd = styled.div`
 background-color:#ffcc80;
-
 margin-bottom:0.5rem;
 margin-right:0.5rem;
   border-radius: 30px;
   min-width:32rem;
   display:flex;
+  padding-right:0.8rem;
   flex-direction:column;
 `
 export const P=styled.p`
@@ -61,7 +61,7 @@ export const ProgressBox = styled.div`
    margin-left:1.5rem;
    margin-bottom:1rem;
   border-radius:30px;
-  padding:1rem;
+  padding:0.5rem;
 `;
 export const Percentage = styled.span<{ isPositive: boolean }>`
   border-radius:20px;
