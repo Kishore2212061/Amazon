@@ -6,7 +6,8 @@ export const StatsContainer = styled.div`
   gap: 1.5rem;
   margin-top: 3.5rem;
   margin-left:1rem;
-  width: 100%;
+  width: 92%;
+  justify-content:space-between;
    @media (max-width: 1080px) { 
       justify-content:center;
 }
@@ -15,7 +16,7 @@ export const StatsContainer = styled.div`
 export const StatBox = styled.div`
   background: white;
   padding: 0.5rem;
-  width: clamp(6.8rem, 15%, 10rem);
+  width: clamp(6.8rem, 25%, 10rem);
   min-height: 5rem;
   border-radius:10px;
   text-align: center;
@@ -23,7 +24,7 @@ export const StatBox = styled.div`
 `;
 
 export const StatValue = styled.p`
-  font-size: 12px;
+  font-size: 17px;
   color: #2e2e2e;
 `;
 

@@ -7,6 +7,7 @@ const Container = styled.div`
               display:flex;
               flex-direction:column;
               gap:1.5rem;
+              padding-left:2.5rem;
             border-radius: 30px;  
             background-color: #3f3d56;
                 @media (max-width: 1080px) { 

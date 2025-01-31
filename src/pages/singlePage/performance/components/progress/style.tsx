@@ -11,11 +11,11 @@ export const ProgressBox = styled.div`
   background: white;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-   margin-top:2rem;
+
    margin-left:1.5rem;
    margin-bottom:1rem;
   border-radius:30px;
-  padding:0.5rem;
+  padding:1.5rem;
 `;
 
 export const FlexProperty = styled.div`;
@@ -28,10 +28,10 @@ border:2px solid #ffcc80;
 `;
 export const Percentage = styled.span<{ isPositive: boolean }>`
   border-radius:20px;
-  width:3.8rem;
+  width:4rem;
   height:1.7rem;
   font-weight: bold;
-  align-items:center;
+  padding-top:0.3rem;
   margin-top:0.9rem;
   background-color: ${(props) => (props.isPositive ? "#90EE90" : "#ffcccb")};
   color: ${(props) => (props.isPositive ? "green" : "red")};

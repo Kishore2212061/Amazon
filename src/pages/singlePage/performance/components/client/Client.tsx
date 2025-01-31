@@ -34,9 +34,8 @@ const Client=()=> {
                 width: "3rem",
                 height: "3rem",
                 borderRadius: "50%",
-                marginBottom: "1rem",
-                marginLeft: "2.5rem",
-                padding: "1rem"
+                padding: "2rem",
+                marginLeft:"3rem"
 
               }}
               loader={<div style={{ background: '#888', width: '100%', height: '100%' }} />} // Loader style

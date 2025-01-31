@@ -4,13 +4,13 @@ import Skeleton from '@mui/material/Skeleton';
 export const RecentlySoldContainer = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 5rem;
+  margin-top: 2.5rem;
   width: 100%;
    margin-left:1%;
 `;
 
 export const H2 = styled.h2`
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: bold;
   padding-left:2.5%; 
 `;
@@ -30,9 +30,10 @@ export const SoldItem = styled.li`
   display:flex;
   flex-direction:column;
   padding: 1.2rem;
-  height:12rem;
+  height:11rem;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  width:10rem;
+  width:11rem;
+
 `;
 
 export const SkeletonSoldItem = styled(SoldItem)`
@@ -63,7 +64,7 @@ export const SkeletonPrice = styled(Skeleton)`
 
 export const SoldName = styled.span`
   display:flex;
-  font-size: 12px;
+  font-size: 18px;
   padding: 0.3rem;
   font-weight: bold;
      @media (max-width: 1080px) { 
@@ -73,7 +74,7 @@ export const SoldName = styled.span`
 `;
 
 export const SoldPrice = styled.span`
-  font-size: 14px;
+  font-size: 17px;
   color: #444;
 `;
 
@@ -83,8 +84,9 @@ export const Container1 = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   padding: 10px;
+  margin-left:30px;
 `;
 
 export const IconContainerWrapper = styled.div`
@@ -108,7 +110,7 @@ export const Card = styled.div`
   padding: 15px 20px 15px;
   border-radius: 25px;
   width: 150px;
-  padding:30px;
+  padding:25px;
   color: white;
   height:30px;
   font-weight: bold;
@@ -116,14 +118,14 @@ export const Card = styled.div`
 `;
 
 export const Title1 = styled.div`
-  font-size: 16px;
-  padding:2px;
+  font-size: 20px;
+  margin-top:-7px;
 `;
 
 export const Stats = styled.div`
    display:flex;
-  font-size: 10px;
-  opacity: 0.8;
+  font-size: 14px;
+
 `;
 
 export const SoldImage = styled.img`

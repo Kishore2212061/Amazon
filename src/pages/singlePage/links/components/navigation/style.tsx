@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 export const NavMenu = styled.nav`
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 2.2rem;
   margin-left:1rem;
   margin-top:-1.5rem;
-  padding-right:4rem;
+  padding-right:8rem;
      @media (max-width: 1080px) { 
       flex-direction: row;
       margin-top:0;
@@ -45,9 +45,9 @@ export const StyledNavLink = styled(Link)`
 
 export const LogoutButton = styled(StyledNavLink)`
   color: white;
-  margin-top:170%;
+  margin-top:130%;
     @media (max-width: 1080px) { 
     margin-top:0;
-    margin-top:9%;
+    margin-top:8%;
   }
 `;

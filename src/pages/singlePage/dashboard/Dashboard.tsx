@@ -17,7 +17,7 @@ const Container = styled.div`
   }
 `;
 const Inside = styled.div`
-      margin-right:2rem;
+    
       @media (min-width: 1081px) { 
       width:35rem;
       height:55rem;

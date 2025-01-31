@@ -1,12 +1,12 @@
 import { Rc } from './style'
 import Image from '../../../../../assets/cardImage.png'
-import { Im, TextC } from './style'
+import { Im, TextC,Strong,Paragraph } from './style'
 const Stats=()=> {
   return (
     <Rc>
       <TextC>
-        <strong>Good Job!</strong>
-        <p>You have over 20,000 visitors in the last 10 days. Keep it up!</p>
+        <Strong>Good Job!</Strong>
+        <Paragraph>You have over 20,000 visitors in the last 10 days. Keep it up!</Paragraph>
       </TextC>
       <Im src={Image}></Im>
     </Rc>

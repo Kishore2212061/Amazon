@@ -4,12 +4,12 @@ export const Rc = styled.div`
   display: flex;
   background-color: #ff8888;
     margin-left:0.5rem;
-  border-radius: 15px;
-  width: 100%;
+  border-radius: 30px;
+  width: 95%;
   color: white;
   height: 9%;
    @media (max-width: 1080px) { 
-   height:20%;
+   height:15%;
    padding:5%;
    width:90%;
 }
@@ -32,8 +32,19 @@ export const TextC = styled.p`
 `;
 
 export const Im = styled.img`
-  width: 100%;
+  width: 70%;
   @media (max-width: 768px) { 
   margin-left:40%;
 }
 `;
+
+
+export const Strong=styled.strong`
+font-size:1.8rem;
+padding-left:0.5rem;
+padding-top:1.5rem;
+`
+
+export const Paragraph=styled.p`
+padding-left:0.5rem;
+`
