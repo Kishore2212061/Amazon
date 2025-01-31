@@ -3,7 +3,7 @@ import { StatsContainer, StatBox, StatValue, StatValue1 } from './Styles';
 import Skeleton from 'react-loading-skeleton';
 
 function Title() {
-  const { Stat, loading } = useDashboardStore(); 
+  const { Stat, loading } = useDashboardStore();
 
   return (
     <StatsContainer>

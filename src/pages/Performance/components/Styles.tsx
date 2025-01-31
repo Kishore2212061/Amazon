@@ -16,7 +16,7 @@ margin-right:0.5rem;
   padding-right:0.8rem;
   flex-direction:column;
 `
-export const P=styled.p`
+export const P = styled.p`
 margin-left:80%;
 margin-top:-7%;
    @media (max-width: 1080px) { 
