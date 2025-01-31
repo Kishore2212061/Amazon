@@ -1,9 +1,9 @@
-import { useDashboardStore } from '../../../store/useStore';
+import { useDashboardStore } from '../../../../../store/useStore';
 import { Slide } from 'transitions-kit';
 import { useEffect } from 'react';
 import { AsyncImage } from 'loadable-image';
-import { useLoadDashboardData } from "../../../store/dummy";
-function Photo() {
+import { useLoadDashboardData } from "../../../../../store/dummy";
+const Photo=()=> {
   const { UserPhoto } = useDashboardStore();
   const loadDashboardData = useLoadDashboardData();
   useEffect(() => {

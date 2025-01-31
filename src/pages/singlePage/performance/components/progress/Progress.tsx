@@ -1,7 +1,7 @@
-import { ProgressB, ProgressBox, FlexProperty, Hrr, Percentage } from './Styles';
-import { useDashboardStore } from '../../../store/useStore';
+import { ProgressB, ProgressBox, FlexProperty, Hrr, Percentage } from './style';
+import { useDashboardStore } from '../../../../../store/useStore';
 
-function Progress() {
+const Progress=()=> {
   const { Performance } = useDashboardStore();
   const placeholderPerformance = Array(3).fill({
     label: 'Loading...',

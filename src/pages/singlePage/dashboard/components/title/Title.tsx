@@ -1,8 +1,8 @@
-import { useDashboardStore } from '../../../store/useStore';
-import { StatsContainer, StatBox, StatValue, StatValue1 } from './Styles';
+import { useDashboardStore } from '../../../../../store/useStore';
+import { StatsContainer, StatBox, StatValue, StatValue1 } from './style';
 import Skeleton from 'react-loading-skeleton';
 
-function Title() {
+const Title=()=> {
   const { Stat, loading } = useDashboardStore();
 
   return (

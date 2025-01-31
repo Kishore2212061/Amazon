@@ -1,27 +1,5 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-export const Container = styled.div`
-              display:flex;
-              flex-direction:column;
-              gap:1.5rem;
-            border-radius: 30px;  
-            background-color: #3f3d56;
-                @media (max-width: 1080px) { 
-                      flex-direction: row;
-                      margin-bottom:-2.5%;
-  }
-            
-  }
-`;
-
-export const Pic = styled.img`
-    width: 4.5rem;
-    height: 4.5rem;
-    padding:3.5rem;
-    margin-left:-1.2rem;
-    border-radius: 50%;
-     border:5px solid black;
-`;
 
 export const NavMenu = styled.nav`
   display: flex;

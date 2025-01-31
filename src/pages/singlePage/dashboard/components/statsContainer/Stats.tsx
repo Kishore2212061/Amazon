@@ -1,7 +1,7 @@
-import { Rc } from './Styles'
-import Image from '../../../assets/Cardimage (2).png'
-import { Im, TextC } from './Styles'
-function Stats() {
+import { Rc } from './style'
+import Image from '../../../../../assets/cardImage.png'
+import { Im, TextC } from './style'
+const Stats=()=> {
   return (
     <Rc>
       <TextC>

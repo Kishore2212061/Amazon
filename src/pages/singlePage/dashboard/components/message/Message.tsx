@@ -1,9 +1,9 @@
-import { useDashboardStore } from '../../../store/useStore';
-import { CC, Title, H3, NotificationIcon } from './Styles';
+import { useDashboardStore } from '../../../../../store/useStore';
+import { CC, Title, H3, NotificationIcon } from './style';
 import { BlinkBlur } from 'react-loading-indicators';
 import { Bell } from 'lucide-react';
 
-function Message() {
+const Message=()=> {
   const { User, loading } = useDashboardStore();
   const today = new Date();
   const day = today.toLocaleDateString("en-GB", { day: "2-digit" });

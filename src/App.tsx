@@ -1,13 +1,7 @@
-import Links from "./pages/Links/Links"
-import { Container } from "./Styles";
-import Dashboard from "./pages/Dashboard/Dashboard";
-function App() {
+import Index from './pages/singlePage/Index'
+const App=()=> {
   return (
-    <Container>
-      <Links></Links>
-      <Dashboard>
-      </Dashboard>
-    </Container>
+  <Index/>
   )
 }
 

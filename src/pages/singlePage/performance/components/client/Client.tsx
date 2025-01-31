@@ -1,11 +1,11 @@
-import { useDashboardStore } from "../../../store/useStore";
-import { Title, ClientsContainer, ClientBox, ClientP, P } from './Styles';
+import { useDashboardStore } from "../../../../../store/useStore";
+import { Title, ClientsContainer, ClientBox, ClientP, P } from './style';
 import { AsyncImage } from 'loadable-image'; // For loading images with async
 import { Slide } from 'transitions-kit'; // For slide transition
 import { useEffect } from 'react';
-import { useLoadDashboardData } from "../../../store/dummy";
+import { useLoadDashboardData } from "../../../../../store/dummy";
 
-function Client() {
+const Client=()=> {
   const { Client } = useDashboardStore();
   const loadDashboardData = useLoadDashboardData();
 

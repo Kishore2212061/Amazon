@@ -1,9 +1,8 @@
 import 'react-loading-skeleton/dist/skeleton.css';
-import { useDashboardStore } from '../../../store/useStore';
+import { useDashboardStore } from '../../../../../store/useStore';
 import { ShoppingBag, Glasses } from "lucide-react";
-import { RecentlySoldContainer, SoldList, SoldItem, SoldImage, SoldName, SoldPrice, H2, SkeletonSoldItem, SkeletonImage, SkeletonName, SkeletonPrice, Container1, Title1, IconContainer, IconContainerWrapper, Card, Stats } from './Styles';
-
-function Sold() {
+import { RecentlySoldContainer, SoldList, SoldItem, SoldImage, SoldName, SoldPrice, H2, SkeletonSoldItem, SkeletonImage, SkeletonName, SkeletonPrice, Container1, Title1, IconContainer, IconContainerWrapper, Card, Stats } from './style';
+const Sold=()=> {
   const { RecentSold, loading } = useDashboardStore();
 
   return (
