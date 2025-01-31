@@ -130,7 +130,7 @@ interface DashboardState {
     RecentSold: Product[];
     Client: Client[];
     Performance: Performance[];
-    loading: boolean; // New loading state
+    loading: boolean; 
     setLoading: (status: boolean) => void;
     setDashboardData: (data: Partial<DashboardState>) => void;
 }
