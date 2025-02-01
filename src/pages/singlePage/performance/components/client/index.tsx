@@ -13,7 +13,7 @@ const Client=()=> {
     loadDashboardData();
   }, []);
   const placeholderClients = Array(4).fill({
-    name: 'Loading...',
+    name: 'Loading..',
     photo: 'default-photo.jpg',
   });
 
