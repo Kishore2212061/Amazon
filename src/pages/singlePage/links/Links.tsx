@@ -1,6 +1,6 @@
-import Photo from './components/photo/Photo'
+import Photo from './components/photo'
 import styled from 'styled-components'
-import Navigation from './components/navigation/Navigation'
+import Navigation from './components/navigation'
 import { BrowserRouter as Router } from 'react-router-dom'
 
 const Container = styled.div`

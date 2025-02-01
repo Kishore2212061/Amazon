@@ -1,6 +1,7 @@
 import 'react-loading-skeleton/dist/skeleton.css';
 import { useDashboardStore } from '../../../../../store/useStore';
 import { ShoppingBag, Glasses } from "lucide-react";
+import ProductBag from '../../assests/ProductBag.jpg'
 import { RecentlySoldContainer, SoldList, SoldItem, SoldImage, SoldName, SoldPrice, H2, SkeletonSoldItem, SkeletonImage, SkeletonName, SkeletonPrice, Container1, Title1, IconContainer, IconContainerWrapper, Card, Stats } from './style';
 const Sold=()=> {
   const { RecentSold, loading } = useDashboardStore();
@@ -20,7 +21,7 @@ const Sold=()=> {
         ) : (
           RecentSold.map((re) => (
             <SoldItem key={re.name}>
-              <SoldImage src={re.photo} />
+              <SoldImage src={ProductBag} />
               <SoldName>{re.name}</SoldName>
               <SoldPrice>&nbsp;{re.price} - earned</SoldPrice>
             </SoldItem>

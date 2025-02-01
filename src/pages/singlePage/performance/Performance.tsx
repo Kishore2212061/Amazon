@@ -1,5 +1,5 @@
-import Client from './components/client/Client'
-import Progress from './components/progress/Progress'
+import Client from './components/client'
+import Progress from './components/progress'
 import styled from 'styled-components'
 const ProgressCardd = styled.div`
 background-color:#ffcc80;

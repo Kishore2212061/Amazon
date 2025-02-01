@@ -43,7 +43,7 @@ export const ClientImage = styled.img`
 export const ClientP = styled.p`
   text-align: center;
   width: 100px;
-  margin-left: 22%;
+  margin-left: 23.5%;
 `
 
 export const Titles=styled.h2`

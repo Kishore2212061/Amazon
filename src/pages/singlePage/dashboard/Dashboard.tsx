@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import Message from './components/message/Message'
-import Stats from './components/statsContainer/Stats'
-import Title from './components/title/Title'
-import Sold from './components/soldItems/Sold'
+import Message from './components/message'
+import Stats from './components/statsContainer'
+import Title from './components/title'
+import Sold from './components/soldItems'
 import Performance from '../performance/Performance'
 
 const Container = styled.div`

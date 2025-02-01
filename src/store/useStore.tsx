@@ -51,4 +51,3 @@ export const useDashboardStore = create<DashboardState>((set) => ({
     setDashboardData: (data) =>
         set((state) => ({ ...state, ...data, loading: false })),
 }));
-
