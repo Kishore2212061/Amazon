@@ -5,7 +5,7 @@ export const Rc = styled.div`
   background-color: #ff8888;
     margin-left:0.5rem;
   border-radius: 30px;
-  width: 95%;
+  width: 91%;
   color: white;
   height: 9%;
    @media (max-width: 1080px) { 

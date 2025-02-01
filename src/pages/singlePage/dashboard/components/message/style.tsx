@@ -8,7 +8,7 @@ export const CC = styled.div`
 export const NotificationIcon = styled.div`
   position: absolute;
   top: 40%;
-  right: 5%;
+  right: 9.5%;
   cursor: pointer;
 `;
 

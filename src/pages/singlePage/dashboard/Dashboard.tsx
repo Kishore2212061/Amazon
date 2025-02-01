@@ -9,8 +9,9 @@ const Container = styled.div`
   display: flex;
   border-radius: 30px;
   background-color: white;
-  margin-left:-3rem;
+  margin-left:-4rem;
   padding: 1.5rem;
+  height:53rem;
   @media (max-width:1080px) { 
     flex-direction: column;
     margin-left:0.3%;
@@ -20,7 +21,7 @@ const Inside = styled.div`
     
       @media (min-width: 1081px) { 
       width:35rem;
-      height:55rem;
+      height:50rem;
 }
   `;
 

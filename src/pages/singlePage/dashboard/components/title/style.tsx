@@ -6,7 +6,7 @@ export const StatsContainer = styled.div`
   gap: 1.5rem;
   margin-top: 3.5rem;
   margin-left:1rem;
-  width: 92%;
+  width: 89%;
   justify-content:space-between;
    @media (max-width: 1080px) { 
       justify-content:center;

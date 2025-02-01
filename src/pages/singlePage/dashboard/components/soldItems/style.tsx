@@ -20,7 +20,6 @@ export const SoldList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
-  gap: 1.5rem; 
    margin-top:0rem;
 `;
 
@@ -30,9 +29,9 @@ export const SoldItem = styled.li`
   display:flex;
   flex-direction:column;
   padding: 1.2rem;
-  height:11rem;
+  height:11.5rem;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  width:11rem;
+  width:12.1rem;
 
 `;
 
@@ -60,12 +59,14 @@ export const SkeletonPrice = styled(Skeleton)`
   width: 6rem;
   height: 2rem;
   margin-top: 0.3rem;
+
 `;
 
 export const SoldName = styled.span`
   display:flex;
-  font-size: 18px;
-  padding: 0.3rem;
+  font-size: 15px;
+  padding: 0.1rem;
+  padding-left:0.4rem;
   font-weight: bold;
      @media (max-width: 1080px) { 
        font-size:25px;
@@ -76,6 +77,7 @@ export const SoldName = styled.span`
 export const SoldPrice = styled.span`
   font-size: 17px;
   color: #444;
+  
 `;
 
 
@@ -86,17 +88,17 @@ export const Container1 = styled.div`
   align-items: center;
   gap: 20px;
   padding: 10px;
-  margin-left:30px;
+  margin-left:25px;
 `;
 
 export const IconContainerWrapper = styled.div`
   display: flex;
-  gap: 20px;
+  gap: 25px;
 `;
 
 export const IconContainer = styled.div`
-  width: 78px;
-  height: 89px;
+  width: 99px;
+  height: 99px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,12 +109,12 @@ export const IconContainer = styled.div`
 
 export const Card = styled.div`
   background: #e6b9b8;
-  padding: 15px 20px 15px;
+
   border-radius: 25px;
-  width: 150px;
+  width: 180px;
   padding:25px;
   color: white;
-  height:30px;
+  height:44px;
   font-weight: bold;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 `;
@@ -120,11 +122,12 @@ export const Card = styled.div`
 export const Title1 = styled.div`
   font-size: 20px;
   margin-top:-7px;
+  margin-bottom:0.5rem;
 `;
 
 export const Stats = styled.div`
    display:flex;
-  font-size: 14px;
+  font-size: 17px;
 
 `;
 

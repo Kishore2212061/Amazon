@@ -11,11 +11,12 @@ export const ProgressBox = styled.div`
   background: white;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-
    margin-left:1.5rem;
-   margin-bottom:1rem;
+   margin-bottom:1.6rem;
   border-radius:30px;
-  padding:1.5rem;
+  padding-top:1rem;
+  padding-left:1.6rem;
+   padding-right:1.6rem;
 `;
 
 export const FlexProperty = styled.div`;
