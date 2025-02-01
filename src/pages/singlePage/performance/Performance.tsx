@@ -5,7 +5,7 @@ const ProgressCardd = styled.div`
 background-color:#ffcc80;
 margin-bottom:1.8rem;
 margin-right:0.5rem;
-margin-left:-1.5rem;
+margin-left:-0.5rem;
   border-radius: 30px;
   min-width:32rem;
   display:flex;

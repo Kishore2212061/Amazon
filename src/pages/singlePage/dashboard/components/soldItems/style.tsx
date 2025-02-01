@@ -21,6 +21,7 @@ export const SoldList = styled.ul`
   flex-wrap: wrap;
   padding: 1rem;
    margin-top:0rem;
+   gap:5%;
 `;
 
 export const SoldItem = styled.li`
@@ -88,7 +89,7 @@ export const Container1 = styled.div`
   align-items: center;
   gap: 20px;
   padding: 10px;
-  margin-left:25px;
+ 
 `;
 
 export const IconContainerWrapper = styled.div`
