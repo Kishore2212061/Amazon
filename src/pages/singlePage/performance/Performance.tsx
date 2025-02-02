@@ -1,6 +1,30 @@
 import Client from './components/client'
 import Progress from './components/progress'
 import styled from 'styled-components'
+
+const Performance=()=> {
+
+
+
+  return (
+    <ProgressCardd>
+      <Client></Client>
+      <H6>Your Progress</H6>
+      <Progress></Progress>
+    </ProgressCardd>
+  )
+}
+
+
+
+
+export default Performance;
+
+
+
+
+
+
 const ProgressCardd = styled.div`
 background-color:#ffcc80;
 margin-bottom:1.8rem;
@@ -18,15 +42,3 @@ const H6 = styled.h4`
 margin-left:2rem;
 margin-top:0.3rem;
 `
-
-const Performance=()=> {
-  return (
-    <ProgressCardd>
-      <Client></Client>
-      <H6>Your Progress</H6>
-      <Progress></Progress>
-    </ProgressCardd>
-  )
-}
-
-export default Performance

@@ -32,7 +32,7 @@ export const Percentage = styled.span<{ isPositive: boolean }>`
   width:4rem;
   height:1.7rem;
   font-weight: bold;
-  padding-top:0.3rem;
+  padding-top:0.5rem;
   margin-top:0.9rem;
   background-color: ${(props) => (props.isPositive ? "#90EE90" : "#ffcccb")};
   color: ${(props) => (props.isPositive ? "green" : "red")};

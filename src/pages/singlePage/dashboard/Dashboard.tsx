@@ -4,6 +4,22 @@ import Stats from './components/statsContainer'
 import Title from './components/title'
 import Sold from './components/soldItems'
 import Performance from '../performance/Performance'
+const Dashboard = () => {
+  return (
+    <Container>
+      <Inside>
+        <Message></Message>
+        <Stats></Stats>
+        <Title></Title>
+        <Sold></Sold>
+      </Inside>
+      <Performance></Performance>
+    </Container>
+  )
+}
+
+export default Dashboard
+
 
 const Container = styled.div`
   display: flex;
@@ -25,19 +41,3 @@ const Inside = styled.div`
 }
   `;
 
-
-const Dashboard = () => {
-  return (
-    <Container>
-      <Inside>
-        <Message></Message>
-        <Stats></Stats>
-        <Title></Title>
-        <Sold></Sold>
-      </Inside>
-      <Performance></Performance>
-    </Container>
-  )
-}
-
-export default Dashboard

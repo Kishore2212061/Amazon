@@ -1,30 +1,7 @@
 import { create } from "zustand";
-
-// Interfaces
-interface Stat {
-    label: string;
-    value: string;
-}
-
-interface Product {
-    name: string;
-    price: string;
-    itemsold: number;
-    photo: string;
-}
-
-interface Client {
-    id: number;
-    name: string;
-    photo: string;
-}
-
-interface Performance {
-    label: string;
-    value: string;
-    orders: number;
-    percentage: number;
-}
+import { Client } from "./userStore";
+import { Performance } from "./performanceStore";
+import { Stat ,Product} from "./peoductStore";
 
 interface DashboardState {
     User: string;
@@ -38,7 +15,6 @@ interface DashboardState {
     setDashboardData: (data: Partial<DashboardState>) => void;
 }
 
-// Zustand Store
 export const useDashboardStore = create<DashboardState>((set) => ({
     User: "",
     UserPhoto: "",

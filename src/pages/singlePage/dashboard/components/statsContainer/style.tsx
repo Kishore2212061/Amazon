@@ -9,8 +9,8 @@ export const Rc = styled.div`
   color: white;
   height: 9%;
    @media (max-width: 1080px) { 
-   height:15%;
-   padding:5%;
+   height:25%;
+   padding:2rem;
    width:90%;
 }
       @media (min-width: 1081px) { 
