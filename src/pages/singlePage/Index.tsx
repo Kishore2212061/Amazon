@@ -10,7 +10,8 @@ border-radius:20px;
 justify-content:center;
       @media (max-width: 1080px) { 
     flex-direction: column;
-  }
+  height:100%;
+  } 
 `;
 
 const Index = () => {

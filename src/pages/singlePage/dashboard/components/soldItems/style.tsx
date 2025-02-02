@@ -22,6 +22,10 @@ export const SoldList = styled.ul`
   padding: 1rem;
    margin-top:0rem;
    gap:5%;
+        @media (max-width: 1080px) { 
+      justify-content:around;
+}
+   
 `;
 
 export const SoldItem = styled.li`
@@ -89,7 +93,10 @@ export const Container1 = styled.div`
   align-items: center;
   gap: 20px;
   padding: 10px;
- 
+
+   @media (max-width: 1080px) { 
+      margin-right:40rem;
+}
 `;
 
 export const IconContainerWrapper = styled.div`
@@ -136,4 +143,8 @@ export const SoldImage = styled.img`
   width: 80%;
   height: auto;
   margin-left:1rem;
+       @media (max-width: 1080px) { 
+         width:70%;
+
+}
 `;

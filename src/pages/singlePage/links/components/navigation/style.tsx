@@ -48,6 +48,6 @@ export const LogoutButton = styled(StyledNavLink)`
   margin-top:130%;
     @media (max-width: 1080px) { 
     margin-top:0;
-    margin-top:8%;
+    margin-top:9%;
   }
 `;

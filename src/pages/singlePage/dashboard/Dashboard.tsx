@@ -31,6 +31,7 @@ const Container = styled.div`
   @media (max-width:1080px) { 
     flex-direction: column;
     margin-left:0.3%;
+      height:100%;
   }
 `;
 const Inside = styled.div`

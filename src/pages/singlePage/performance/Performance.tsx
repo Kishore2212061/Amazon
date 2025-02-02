@@ -37,6 +37,9 @@ margin-left:-0.5rem;
    padding-left:0.2rem;
   flex-direction:column;
   height:53.5rem;
+   @media (max-width: 1080px) { 
+      height:56rem;
+}
 `;
 const H6 = styled.h4`
 margin-left:2rem;

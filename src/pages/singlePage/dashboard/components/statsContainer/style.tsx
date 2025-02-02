@@ -9,7 +9,6 @@ export const Rc = styled.div`
   color: white;
   height: 9%;
    @media (max-width: 1080px) { 
-   height:25%;
    padding:2rem;
    width:90%;
 }
@@ -33,8 +32,10 @@ export const TextC = styled.p`
 
 export const Im = styled.img`
   width: 70%;
-  @media (max-width: 768px) { 
+  @media (max-width: 1080px) { 
   margin-left:40%;
+  width:20%;
+
 }
 `;
 

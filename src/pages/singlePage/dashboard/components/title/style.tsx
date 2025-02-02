@@ -9,7 +9,9 @@ export const StatsContainer = styled.div`
   width: 89%;
   justify-content:space-between;
    @media (max-width: 1080px) { 
-      justify-content:center;
+      justify-content:space-around;
+      gap:6.2em;
+      width:95%;
 }
 `;
 
@@ -21,6 +23,12 @@ export const StatBox = styled.div`
   border-radius:10px;
   text-align: center;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+   justify-content:space-between;
+   @media (max-width: 1080px) { 
+      width:20rem;
+      height:7rem;
+   
+}
 `;
 
 export const StatValue = styled.p`

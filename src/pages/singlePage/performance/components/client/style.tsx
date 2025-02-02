@@ -11,6 +11,7 @@ margin-left:88%;
 margin-top:-7%;
    @media (max-width: 1080px) { 
   margin-top:-3%;
+  margin-left:96%;
 }
 `
 
