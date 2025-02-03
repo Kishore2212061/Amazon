@@ -1,4 +1,4 @@
-import Index from './pages/singlePage/Index'
+import Index from './pages/singlePage/index'
 
 
 const App=()=> {
