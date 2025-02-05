@@ -5,16 +5,15 @@ export const NavMenu = styled.nav`
   display: flex;
   flex-direction: column;
   gap: 2.2rem;
-  margin-left:1rem;
-  margin-top:-1.5rem;
-  padding-right:8rem;
-     @media (max-width: 1080px) { 
-      flex-direction: row;
-      margin-top:0;
-      margin-left:0;
-    justify-content:flex-start;
+  margin-left: 1rem;
+  margin-top: -1.5rem;
+  padding-right: 8rem;
+  @media (max-width: 1080px) {
+    flex-direction: row;
+    margin-top: 0;
+    margin-left: 0;
+    justify-content: flex-start;
   }
-
 `;
 
 export const StyledNavLink = styled(Link)`
@@ -25,29 +24,28 @@ export const StyledNavLink = styled(Link)`
   padding: 10px 15px;
   font-size: 1.1rem;
   color: white;
-  
+
   svg {
     width: 0.8rem;
     height: 0.8rem;
   }
-    &:hover {
+  &:hover {
     color: gold;
-    }
-      @media (max-width: 1080px) { 
-      flex-direction: row;
-      margin-top:9%;
-      margin-left:0;
-      padding:2rem;
-      align-items:flex-start;
   }
-     
+  @media (max-width: 1080px) {
+    flex-direction: row;
+    margin-top: 9%;
+    margin-left: 0;
+    padding: 2rem;
+    align-items: flex-start;
+  }
 `;
 
 export const LogoutButton = styled(StyledNavLink)`
   color: white;
-  margin-top:130%;
-    @media (max-width: 1080px) { 
-    margin-top:0;
-    margin-top:9%;
+  margin-top: 130%;
+  @media (max-width: 1080px) {
+    margin-top: 0;
+    margin-top: 9%;
   }
 `;

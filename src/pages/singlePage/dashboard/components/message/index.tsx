@@ -1,9 +1,9 @@
-import { useDashboardStore } from '../../../../../store/useStore';
-import { CC, Title, H3, NotificationIcon } from './style';
-import { BlinkBlur } from 'react-loading-indicators';
-import { Bell } from 'lucide-react';
+import { useDashboardStore } from "../../../../../store/useStore";
+import { CC, Title, H3, NotificationIcon } from "./style";
+import { BlinkBlur } from "react-loading-indicators";
+import { Bell } from "lucide-react";
 
-const Message=()=> {
+const Message = () => {
   const { User, loading } = useDashboardStore();
   const today = new Date();
   const day = today.toLocaleDateString("en-GB", { day: "2-digit" });
@@ -17,11 +17,12 @@ const Message=()=> {
         <Bell size={20} color="black" />
       </NotificationIcon>
       <Title>
-        Welcome back, {loading ? <BlinkBlur color="silver" size="small" /> : User}!
+        Welcome back,{" "}
+        {loading ? <BlinkBlur color="silver" size="small" /> : User}!
       </Title>
       <H3>{formattedDate}</H3>
     </CC>
   );
-}
+};
 
 export default Message;

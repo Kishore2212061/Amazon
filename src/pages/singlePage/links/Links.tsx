@@ -1,25 +1,19 @@
-import Photo from './components/photo'
-import styled from 'styled-components'
-import Navigation from './components/navigation'
-import { BrowserRouter as Router } from 'react-router-dom'
-const Links=()=> {
-
-
+import Photo from "./components/photo";
+import styled from "styled-components";
+import Navigation from "./components/navigation";
+import { BrowserRouter as Router } from "react-router-dom";
+const Links = () => {
   return (
     <Container>
-    <Photo></Photo>
-    <Router>
-      <Navigation></Navigation>
-    </Router>
-  </Container>
-  )
-}
+      <Photo></Photo>
+      <Router>
+        <Navigation></Navigation>
+      </Router>
+    </Container>
+  );
+};
 
-
-
-
-export default Links
-
+export default Links;
 
 const Container = styled.div`
               display:flex;

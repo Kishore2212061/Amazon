@@ -1,10 +1,9 @@
-import { useDashboardStore } from '../../../../../store/useStore';
-import { Slide } from 'transitions-kit';
-import { useEffect } from 'react';
-import { AsyncImage } from 'loadable-image';
+import { Slide } from "transitions-kit";
+import { useEffect } from "react";
+import { AsyncImage } from "loadable-image";
 import { useLoadDashboardData } from "../../../../../store/dummy";
-const Photo=()=> {
-  const { UserPhoto } = useDashboardStore();
+import UserPhoto from "../../assests/UserPhoto.jpg";
+const Photo = () => {
   const loadDashboardData = useLoadDashboardData();
   useEffect(() => {
     loadDashboardData();
@@ -23,10 +22,9 @@ const Photo=()=> {
         marginBottom: "3rem",
         borderRadius: "50%",
       }}
-      loader={<div style={{ background: '#888' }} />}
+      loader={<div style={{ background: "#888" }} />}
     />
-
-  )
-}
+  );
+};
 
 export default Photo;

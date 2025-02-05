@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import { Client } from "./userStore";
 import { Performance } from "./performanceStore";
-import { Stat ,Product} from "./peoductStore";
+import { Stat, Product } from "./peoductStore";
 
 interface DashboardState {
     User: string;
@@ -10,7 +10,7 @@ interface DashboardState {
     RecentSold: Product[];
     Client: Client[];
     Performance: Performance[];
-    loading: boolean; 
+    loading: boolean;
     setLoading: (status: boolean) => void;
     setDashboardData: (data: Partial<DashboardState>) => void;
 }

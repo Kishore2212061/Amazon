@@ -1,7 +1,14 @@
-import { FiHome, FiPackage, FiUsers, FiStar, FiSettings, FiLogOut } from "react-icons/fi";
-import { NavMenu, StyledNavLink, LogoutButton } from './style';
+import {
+  FiHome,
+  FiPackage,
+  FiUsers,
+  FiStar,
+  FiSettings,
+  FiLogOut,
+} from "react-icons/fi";
+import { NavMenu, StyledNavLink, LogoutButton } from "./style";
 
-const Navigation=()=> {
+const Navigation = () => {
   return (
     <NavMenu>
       <StyledNavLink to="/">
@@ -24,6 +31,6 @@ const Navigation=()=> {
       </LogoutButton>
     </NavMenu>
   );
-}
+};
 
 export default Navigation;

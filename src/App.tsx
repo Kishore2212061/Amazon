@@ -1,10 +1,7 @@
-import Index from './pages/singlePage/index'
+import Index from "./pages/singlePage/index";
 
+const App = () => {
+  return <Index />;
+};
 
-const App=()=> {
-  return (
-  <Index/>
-  )
-}
-
-export default App
+export default App;

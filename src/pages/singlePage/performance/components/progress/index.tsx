@@ -1,15 +1,16 @@
-import { ProgressB, ProgressBox, FlexProperty, Hrr, Percentage } from './style';
-import { useDashboardStore } from '../../../../../store/useStore';
-import { ShoppingCart } from 'lucide-react';
-const Progress=()=> {
+import { ProgressB, ProgressBox, FlexProperty, Hrr, Percentage } from "./style";
+import { useDashboardStore } from "../../../../../store/useStore";
+import { ShoppingCart } from "lucide-react";
+const Progress = () => {
   const { Performance } = useDashboardStore();
   const placeholderPerformance = Array(3).fill({
-    label: 'Loading...',
-    value: 'Fetching...',
-    orders: 'Fetching...',
+    label: "Loading...",
+    value: "Fetching...",
+    orders: "Fetching...",
     percentage: 0,
   });
-  const performanceToDisplay = Performance.length > 0 ? Performance : placeholderPerformance;
+  const performanceToDisplay =
+    Performance.length > 0 ? Performance : placeholderPerformance;
 
   return (
     <ProgressB>
@@ -21,7 +22,10 @@ const Progress=()=> {
           </FlexProperty>
           <Hrr />
           <FlexProperty>
-            <h3 ><ShoppingCart size={20}  style={{ paddingRight: '13.5px' }}/>{per.orders} Orders</h3>
+            <h3>
+              <ShoppingCart size={20} style={{ paddingRight: "13.5px" }} />
+              {per.orders} Orders
+            </h3>
             <Percentage isPositive={per.percentage >= 0}>
               {per.percentage}%
             </Percentage>
@@ -30,6 +34,6 @@ const Progress=()=> {
       ))}
     </ProgressB>
   );
-}
+};
 
 export default Progress;

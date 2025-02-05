@@ -1,6 +1,5 @@
-
 export interface Client {
-    id: number;
-    name: string;
-    photo: string;
+  id: number;
+  name: string;
+  photo: string;
 }

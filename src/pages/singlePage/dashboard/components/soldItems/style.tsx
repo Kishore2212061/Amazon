@@ -1,18 +1,18 @@
 import styled from "styled-components";
-import Skeleton from '@mui/material/Skeleton';
+import Skeleton from "@mui/material/Skeleton";
 
 export const RecentlySoldContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 2.5rem;
   width: 100%;
-   margin-left:1%;
+  margin-left: 1%;
 `;
 
 export const H2 = styled.h2`
   font-size: 1.4rem;
   font-weight: bold;
-  padding-left:2.5%; 
+  padding-left: 2.5%;
 `;
 
 export const SoldList = styled.ul`
@@ -20,24 +20,22 @@ export const SoldList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
-   margin-top:0rem;
-   gap:5%;
-        @media (max-width: 1080px) { 
-      justify-content:around;
-}
-   
+  margin-top: 0rem;
+  gap: 5%;
+  @media (max-width: 1080px) {
+    justify-content: around;
+  }
 `;
 
 export const SoldItem = styled.li`
   background-color: white;
   border-radius: 35px;
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
   padding: 1.2rem;
-  height:11.5rem;
+  height: 11.5rem;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  width:12.1rem;
-
+  width: 12.1rem;
 `;
 
 export const SkeletonSoldItem = styled(SoldItem)`
@@ -47,14 +45,14 @@ export const SkeletonSoldItem = styled(SoldItem)`
 `;
 
 export const SkeletonImage = styled(Skeleton)`
-  border-radius:20px;
-  width:8rem;
-  min-height:5rem;
-  padding-left:2rem;
+  border-radius: 20px;
+  width: 8rem;
+  min-height: 5rem;
+  padding-left: 2rem;
 `;
 
 export const SkeletonName = styled(Skeleton)`
-padding-top:1rem;
+  padding-top: 1rem;
   width: 6rem;
   height: 1.2rem;
   margin-top: 3rem;
@@ -64,28 +62,23 @@ export const SkeletonPrice = styled(Skeleton)`
   width: 6rem;
   height: 2rem;
   margin-top: 0.3rem;
-
 `;
 
 export const SoldName = styled.span`
-  display:flex;
+  display: flex;
   font-size: 15px;
   padding: 0.1rem;
-  padding-left:0.4rem;
+  padding-left: 0.4rem;
   font-weight: bold;
-     @media (max-width: 1080px) { 
-       font-size:25px;
-
-}
+  @media (max-width: 1080px) {
+    font-size: 25px;
+  }
 `;
 
 export const SoldPrice = styled.span`
   font-size: 17px;
   color: #444;
-  
 `;
-
-
 
 export const Container1 = styled.div`
   display: flex;
@@ -94,9 +87,9 @@ export const Container1 = styled.div`
   gap: 20px;
   padding: 10px;
 
-   @media (max-width: 1080px) { 
-      margin-right:40rem;
-}
+  @media (max-width: 1080px) {
+    margin-right: 40rem;
+  }
 `;
 
 export const IconContainerWrapper = styled.div`
@@ -120,31 +113,29 @@ export const Card = styled.div`
 
   border-radius: 25px;
   width: 180px;
-  padding:25px;
+  padding: 25px;
   color: white;
-  height:44px;
+  height: 44px;
   font-weight: bold;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 `;
 
 export const Title1 = styled.div`
   font-size: 20px;
-  margin-top:-7px;
-  margin-bottom:0.5rem;
+  margin-top: -7px;
+  margin-bottom: 0.5rem;
 `;
 
 export const Stats = styled.div`
-   display:flex;
+  display: flex;
   font-size: 17px;
-
 `;
 
 export const SoldImage = styled.img`
   width: 80%;
   height: auto;
-  margin-left:1rem;
-       @media (max-width: 1080px) { 
-         width:70%;
-
-}
+  margin-left: 1rem;
+  @media (max-width: 1080px) {
+    width: 70%;
+  }
 `;

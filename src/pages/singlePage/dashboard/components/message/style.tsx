@@ -4,7 +4,6 @@ export const CC = styled.div`
   margin: 1.5rem auto;
 `;
 
-
 export const NotificationIcon = styled.div`
   position: absolute;
   top: 40%;
@@ -12,10 +11,9 @@ export const NotificationIcon = styled.div`
   cursor: pointer;
 `;
 
-
 export const Title = styled.h1`
   padding-top: 2rem;
-  font-size: clamp(2.5rem, 2vw, 2.2rem); 
+  font-size: clamp(2.5rem, 2vw, 2.2rem);
   width: 100%;
   margin-left: 0.5rem;
 `;
