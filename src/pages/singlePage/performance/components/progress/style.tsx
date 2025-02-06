@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ProgressB = styled.div`
+export const ProgressContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;

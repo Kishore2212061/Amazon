@@ -80,7 +80,7 @@ export const SoldPrice = styled.span`
   color: #444;
 `;
 
-export const Container1 = styled.div`
+export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -120,7 +120,7 @@ export const Card = styled.div`
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 `;
 
-export const Title1 = styled.div`
+export const Title = styled.div`
   font-size: 20px;
   margin-top: -7px;
   margin-bottom: 0.5rem;

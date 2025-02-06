@@ -1,5 +1,5 @@
 import { useDashboardStore } from "../../../../../store/useStore";
-import { CC, Title, H3, NotificationIcon } from "./style";
+import { Container, Title, H3, NotificationIcon } from "./style";
 import { BlinkBlur } from "react-loading-indicators";
 import { Bell } from "lucide-react";
 
@@ -12,7 +12,7 @@ const Message = () => {
   const formattedDate = `${day} ${month}, ${weekday}`;
 
   return (
-    <CC style={{ position: "relative" }}>
+    <Container style={{ position: "relative" }}>
       <NotificationIcon>
         <Bell size={20} color="black" />
       </NotificationIcon>
@@ -21,7 +21,7 @@ const Message = () => {
         {loading ? <BlinkBlur color="silver" size="small" /> : User}!
       </Title>
       <H3>{formattedDate}</H3>
-    </CC>
+    </Container>
   );
 };
 

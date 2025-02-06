@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CC = styled.div`
+export const Container = styled.div`
   margin: 1.5rem auto;
 `;
 

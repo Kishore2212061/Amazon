@@ -1,4 +1,4 @@
-import { ProgressB, ProgressBox, FlexProperty, Hrr, Percentage } from "./style";
+import { ProgressContainer, ProgressBox, FlexProperty, Hrr, Percentage } from "./style";
 import { useDashboardStore } from "../../../../../store/useStore";
 import { ShoppingCart } from "lucide-react";
 const Progress = () => {
@@ -13,7 +13,7 @@ const Progress = () => {
     Performance.length > 0 ? Performance : placeholderPerformance;
 
   return (
-    <ProgressB>
+    <ProgressContainer>
       {performanceToDisplay.map((per, index) => (
         <ProgressBox key={index}>
           <FlexProperty>
@@ -32,7 +32,7 @@ const Progress = () => {
           </FlexProperty>
         </ProgressBox>
       ))}
-    </ProgressB>
+    </ProgressContainer>
   );
 };
 

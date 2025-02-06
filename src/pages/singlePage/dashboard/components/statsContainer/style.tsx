@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Rc = styled.div`
+export const Container = styled.div`
   display: flex;
   background-color: #ff8888;
   margin-left: 0.5rem;
@@ -18,7 +18,7 @@ export const Rc = styled.div`
   }
 `;
 
-export const TextC = styled.p`
+export const Text = styled.p`
   display: flex;
   word-wrap: break-word;
   flex-direction: column;
@@ -28,7 +28,7 @@ export const TextC = styled.p`
   }
 `;
 
-export const Im = styled.img`
+export const ImageDiv = styled.img`
   width: 70%;
   @media (max-width: 1080px) {
     margin-left: 40%;

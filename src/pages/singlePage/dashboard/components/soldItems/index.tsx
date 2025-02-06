@@ -14,8 +14,8 @@ import {
   SkeletonImage,
   SkeletonName,
   SkeletonPrice,
-  Container1,
-  Title1,
+  Container,
+  Title,
   IconContainer,
   IconContainerWrapper,
   Card,
@@ -46,7 +46,7 @@ const Sold = () => {
               </SoldItem>
             ))}
         {!loading && (
-          <Container1>
+          <Container>
             <IconContainerWrapper>
               <IconContainer>
                 <Glasses size={35} color="#333" />
@@ -57,10 +57,10 @@ const Sold = () => {
             </IconContainerWrapper>
 
             <Card>
-              <Title1>Dresses</Title1>
+              <Title>Dresses</Title>
               <Stats>25 items &nbsp; &nbsp; $3.5k earned</Stats>
             </Card>
-          </Container1>
+          </Container>
         )}
       </SoldList>
     </RecentlySoldContainer>

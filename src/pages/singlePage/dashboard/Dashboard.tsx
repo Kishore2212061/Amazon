@@ -7,12 +7,12 @@ import Performance from "../performance/Performance";
 const Dashboard = () => {
   return (
     <Container>
-      <Inside>
+      <InsideContainer>
         <Message></Message>
         <Stats></Stats>
         <Title></Title>
         <Sold></Sold>
-      </Inside>
+      </InsideContainer>
       <Performance></Performance>
     </Container>
   );
@@ -33,7 +33,7 @@ const Container = styled.div`
     height: 100%;
   }
 `;
-const Inside = styled.div`
+const InsideContainer = styled.div`
   @media (min-width: 1081px) {
     width: 35rem;
     height: 50rem;
